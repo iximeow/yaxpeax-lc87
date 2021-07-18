@@ -1,0 +1,17 @@
+[package]
+
+name = "yaxpeax-lc87"
+version = "1.0.0"
+authors = [ "iximeow <me@iximeow.net>" ]
+license = "0BSD"
+repository = "http://git.iximeow.net/yaxpeax-lc87/"
+description = "lc87 decoder for the yaxpeax project"
+keywords = ["diassembler", "lc87", "sanyo"]
+edition = "2018"
+
+[dependencies]
+yaxpeax-arch = { version = "0.2.4", default-features = false, features = [] }
+
+[[test]]
+name = "test"
+path = "test/test.rs"
