@@ -6,7 +6,12 @@
 //! named `LC87*`, are all 8-bit controllers, and range between 10-pin 8kb-of-flash and 100-pin
 //! 256kb-of-flash sizes.
 //!
-//! in theory there exists an `LC87 Series Users's Manual` but it appears to have never existed online in original Japanese, or English translation. (the existence of an English translation is suspected but unconfirmed). by coincidence, LC87 instructions are described in the public `LC872H00` datasheet, describing specifically `LC872H00` parts. because the instruction set is shared across the LC87 family of microcontrollers, the instruction set listing in this manual describes the instruction set of the rest of the family.
+//! in theory there exists an `LC87 Series Users's Manual` but it appears to have never existed
+//! online in original Japanese, or English translation. (the existence of an English translation
+//! is suspected but unconfirmed). by coincidence, LC87 instructions are described in the public
+//! `LC872H00` datasheet, describing specifically `LC872H00` parts. because the instruction set is
+//! shared across the LC87 family of microcontrollers, the instruction set listing in this manual
+//! describes the instruction set of the rest of the family.
 //!
 //! datasheet: [`ANDLC872H00-D.PDF`](https://www.onsemi.com/pub/Collateral/ANDLC872H00-D.PDF).  
 //! `sha256: 9cefe73a252468bbbfb81a28e59cb9444c4c49586a616c873958b39ad4fa7b35`
